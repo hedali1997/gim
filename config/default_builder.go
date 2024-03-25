@@ -20,7 +20,7 @@ func (*defaultBuilder) Build() Configuration {
 	logger.Target = logger.Console
 
 	return Configuration{
-		MySQL:                "root:123123@tcp(192.168.3.6:3306)/gim?charset=utf8&parseTime=true",
+		MySQL:                "hedali:123123@tcp(192.168.3.6:3306)/gim?charset=utf8&parseTime=true",
 		RedisHost:            "192.168.88.130:6379",
 		RedisPassword:        "",
 		PushRoomSubscribeNum: 100,
